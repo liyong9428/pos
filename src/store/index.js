@@ -22,7 +22,7 @@ const state = {
       { "goodsId":8, "goodsName":"雪顶咖啡", "price":18 },
       { "goodsId":9, "goodsName":"儿童欢乐套餐", "price":25 },
       { "goodsId":10, "goodsName":"快乐全家桶", "price":99 }
-   ]
+   ],
    typeGoods: [
       [
          {
