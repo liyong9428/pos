@@ -105,26 +105,26 @@ export default {
 
   },
   created() {
-　　　Axios.get('http://jspang.com/DemoApi/oftenGoods.php')
-      .then(response=>{
-         this.$store.state.oftenGoods = response.data;
-      })
-      .catch(error=>{
-         this.$message({
-            showClose: true,
-            message: '您的网络错误，请重新获取',
-            type: 'error'
-         });
-      })
+// 　　　Axios.get('http://jspang.com/DemoApi/oftenGoods.php')
+//       .then(response=>{
+//          this.$store.state.oftenGoods = response.data;
+//       })
+//       .catch(error=>{
+//          this.$message({
+//             showClose: true,
+//             message: '您的网络错误，请重新获取',
+//             type: 'error'
+//          });
+//       })
 
-      Axios.get('http://jspang.com/DemoApi/typeGoods.php')
-      .then(response=>{
-         this.$store.state.typeGoods=response.data;
-      })
-      .catch(error=>{
-          console.log(error);
-          alert('网络错误，不能访问');
-      })
+      // Axios.get('http://jspang.com/DemoApi/typeGoods.php')
+      // .then(response=>{
+      //    this.$store.state.typeGoods=response.data;
+      // })
+      // .catch(error=>{
+      //     console.log(error);
+      //     alert('网络错误，不能访问');
+      // })
   },
 　mounted() {
 　　 document.querySelectorAll('.el-col').forEach((item)=>{
